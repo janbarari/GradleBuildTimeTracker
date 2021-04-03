@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GradleBuildTimeTracker:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GradleBuildTimeTracker_jar</output-path>
+    <root id="archive" name="GradleBuildTimeTracker.jar" />
+  </artifact>
+</component>
