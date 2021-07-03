@@ -21,16 +21,15 @@ class GradleBuildListener : TaskExecutionListener, BuildListener {
         reports.add(BuildReport(Clock.diffFromNow(startTimestamp), task.path))
     }
 
-    override fun buildStarted(gradle: Gradle) {
+    override fun settingsEvaluated(p0: Settings) {
+
     }
 
-    override fun settingsEvaluated(settings: Settings) {
+    override fun projectsLoaded(p0: Gradle) {
+
     }
 
-    override fun projectsLoaded(gradle: Gradle) {
-    }
-
-    override fun projectsEvaluated(gradle: Gradle) {
+    override fun projectsEvaluated(p0: Gradle) {
     }
 
     override fun buildFinished(result: BuildResult) {

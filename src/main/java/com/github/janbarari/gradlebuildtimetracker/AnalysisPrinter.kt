@@ -11,6 +11,8 @@ object AnalysisPrinter {
 
         maximumLineLength = defaultSpaceBetweenPathAndDuration
 
+        if (reports.isEmpty()) return
+
         val maximumDurationTextLength = reports.sortedByDescending { it.duration }.first().duration.toString().length
         val maximumTaskPathTextLength = reports.sortedByDescending { it.path.length }.first().path.length
         maximumLineLength += maximumDurationTextLength + maximumTaskPathTextLength

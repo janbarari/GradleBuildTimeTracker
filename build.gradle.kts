@@ -1,15 +1,14 @@
 
 plugins {
-    `kotlin-dsl`
     kotlin("jvm") version "1.4.21"
     id("java-gradle-plugin")
     id("maven-publish")
     id("com.gradle.plugin-publish") version "0.12.0"
-    id("com.github.janbarari.gradlebuildtimetracker") version "1.0.0"
+    id("com.github.janbarari.gradlebuildtimetracker") version "1.0.1"
 }
 
 group = "com.github.janbarari"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -31,7 +30,7 @@ pluginBundle {
     website = "https://github.com/janbarari/GradleBuildTimeTracker/"
     vcsUrl = "https://github.com/janbarari/GradleBuildTimeTracker.git"
     tags = listOf("gradle", "build", "time", "tracker")
-    version = "1.0.0"
+    version = "1.0.1"
 }
 
 gradlePlugin {
