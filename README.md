@@ -10,7 +10,7 @@ A lightweight console tool that shows you how much time you spent at the Gradle 
 ## Setup
 ```kotlin
 plugins {
-    id("com.github.janbarari.gradlebuildtimetracker") version "1.0.0"
+    id("com.github.janbarari.gradlebuildtimetracker") version "1.0.1"
 }
 ```
 ## or use legacy ⬇️
@@ -22,7 +22,7 @@ buildscript {
     }
   }
   dependencies {
-    classpath("com.github.janbarari:GradleBuildTimeTracker:1.0.0")
+    classpath("com.github.janbarari:GradleBuildTimeTracker:1.0.1")
   }
 }
 
