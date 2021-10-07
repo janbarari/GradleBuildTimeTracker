@@ -7,7 +7,7 @@ A lightweight console tool that shows you how much time you spent at the Gradle 
 
 ![](image.png)
 
-## Setup
+## Setup(Recommended)
 ```kotlin
 plugins {
     id("com.github.janbarari.gradlebuildtimetracker") version "1.0.1"
