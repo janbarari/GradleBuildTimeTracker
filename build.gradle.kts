@@ -17,7 +17,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     compileOnly(gradleApi())
-    implementation("com.opencsv:opencsv:4.1")
+    implementation("com.opencsv:opencsv:5.5.2")
 }
 
 tasks {

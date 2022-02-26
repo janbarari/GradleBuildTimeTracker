@@ -4,6 +4,12 @@
 # Ignore Gradle GUI config
 gradle-app.setting
 
+# Ignore IDE configuration
+.idea/*
+
+# Ignore report folder
+report/*
+
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
 

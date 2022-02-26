@@ -1,7 +1,6 @@
 # Gradle Build Time Tracker: Want to know how much time you waste on IDEs for the building process?
 [![License](http://img.shields.io/badge/Intellij%20Idea-Support-green.svg?style=flat)](https://github.com/janbarari/gradlebuildtimetracker)
 [![License](http://img.shields.io/badge/Android%20Studio-Support-green.svg?style=flat)](https://github.com/janbarari/gradlebuildtimetracker)
-[![License](http://img.shields.io/badge/Export%20CSV-Next%20Release-yellow.svg?style=flat)](https://github.com/janbarari/gradlebuildtimetracker)
 
 A lightweight console tool that shows you how much time you spent at the Gradle build process. Simple analytics tells you time spent for the day, month, year, and also you can export it as a CSV file. no need to write any command. It will show you after your build is finished.  
 
